@@ -13,12 +13,12 @@ int calculateGCD(int a, int b) {
 int main() {
     int num1, num2;
 
-	cout << "½Ð¿é¤J¨â­Ó¾ã¼Æ¡A¥ÎªÅ®æ©Î´«¦æ¤À¹j: ";
+	cout << "è«‹è¼¸å…¥å…©å€‹æ•´æ•¸ï¼Œç”¨ç©ºæ ¼æˆ–æ›è¡Œåˆ†éš”: ";
     cin >> num1 >> num2;
 
     int greatestCommonDivisor = calculateGCD(num1, num2);
 
-    cout << "³Ì¤j¤½¦]¼Æ¬O: " << greatestCommonDivisor << endl;
+    cout << "æœ€å¤§å…¬å› æ•¸æ˜¯: " << greatestCommonDivisor << endl;
 
     return 0;
 }
