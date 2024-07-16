@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int copy(int a[],int b ,int  c)
+{
+a[c]=b;	
+}
+
+int main()
+{
+
+	int a=0;
+	cin>>a;
+	int b[a];
+	int i=0;
+	while(i<a)
+	{
+	int c=0;
+	cin>>c;
+	copy(b,c , i);
+	i++;
+	}
+	for(int i=0;i<sizeof(b) / sizeof(b[0]);i++)
+	{
+	cout<<b[i]<<"";
+	} 
+
+
+
+
+} 
